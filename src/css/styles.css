@@ -5,6 +5,29 @@
   margin: 0 auto;
 }
 
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-nav ul {
+  padding-left: 0;
+}
+
+.main-nav ul li {
+  list-style-type: none;
+}
+
+.main-nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.main-nav ul li a:hover {
+  color: sienna;
+}
+
 .timer {
   margin-top: 25px;
   display: flex;
